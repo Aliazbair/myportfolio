@@ -1,0 +1,80 @@
+.title {
+  /* color: red; */
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow:1px 2px 3px red;
+  text-align: center;
+  margin-top: 1em;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 1rem;
+  /* background-color: rgb(170, 162, 162); */
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  text-shadow:1px 2px 3px red;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+.skillsData {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem;
+  margin-bottom: 2rem;
+}
+.skillsName {
+  text-transform: uppercase;
+}
+.skillsNumber {
+  font-weight: 800;
+}
+.skillsBar {
+  position: absolute;
+  bottom: -0.57rem;
+  height: 0.25rem;
+  background-color: rgb(241, 194, 76);
+}
+.skillsHtml {
+    width: 80%;
+}
+.skillsVue{
+    width:70%;
+}
+.skillsReact{
+    width:90%;
+}
+.skillsBoostrap{
+    width:90%;
+}
+.skillsTaiwlind{
+    width: 60%;
+}
+.skillsPhp{
+    width: 80%;
+}
+.skillsJs
+{
+    width: 80%;
+}
+.skillsPhp
+{
+    width: 80%;
+}
+.skillsNode
+{
+    width: 60%;
+}
+.skillsPython
+{
+    width: 90%;
+}
+.skillsFirebase
+{
+    width: 80%;
+}
