@@ -1,4 +1,3 @@
-import Skills from "../components/Skills";
 
 export default function Home() {
   return (
@@ -24,7 +23,7 @@ export default function Home() {
         <i class="fab fa-github fa-2x"></i>
       </a>
     </div>
-    <Skills/>
+ 
   </main>
   )
 }
